@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dành cho Bạn đẹp gái</title>
+    <style>
+        * { box-sizing: border-box; }
+        body { font-family: Arial, sans-serif; background: #f0f5f5; padding: 20px; margin: 0; color: #333; overflow-x: hidden; }
+        .container { max-width: 650px; margin: auto; background: white; padding: 25px; border-radius: 15px; box-shadow: 0 5px 20px #00000010; }
+        h1 { text-align: center; color: #16867e; font-size: 30px; }
+        h3 { color: #16867e; border-bottom: 2px solid #e0eeee; padding-bottom: 10px; }
+        .hoatdong { background: #f8fbfb; padding: 15px; margin-bottom: 20px; border-radius: 12px; border-left: 4px solid #16867e; }
+        .tieude { color: #16867e; font-size: 18px; font-weight: bold; }
+        .phim { color: purple; font-weight: bold; line-height: 1.6; }
+        .review { color: #444; font-size: 14px; line-height: 1.7; margin-top: 10px; margin-bottom: 15px; overflow-wrap: break-word; }
+        .review p { margin: 8px 0; }
+        ul { padding-left: 22px; }
+        li { margin-bottom: 15px; }
+        a { color: #16867e; font-weight: bold; text-decoration: none; }
+        a:hover { text-decoration: underline; }
+        /* Lá rơi toàn màn hình */
+        .leaf { position: fixed; top: -50px; z-index: 9999; pointer-events: none; animation: leafFall linear forwards; }
+        @keyframes leafFall { 0% { transform: translateY(-50px) rotate(0deg); opacity: 1; } 100% { transform: translateY(110vh) rotate(720deg); opacity: 0; } }
+        /* Ảnh và khu vực duyệt */
+        .anh-cuoi { text-align: center; margin-top: 30px; padding: 22px 15px; background: #fff7fa; border-radius: 18px; }
+        .anh-cuoi h3 { color: #d63376; border-bottom-color: #f9dbe6; }
+        .anh-cuoi img { display: block; width: 100%; max-width: 450px; height: auto; margin: 18px auto; border-radius: 15px; box-shadow: 0 5px 15px #00000020; }
+        .o-tich-duyet { display: flex; flex-direction: column; gap: 12px; max-width: 360px; margin: 20px auto; }
+        .lua-chon { display: flex; align-items: center; gap: 14px; padding: 16px; background: #fff; border: 2px solid #ffd4e3; border-radius: 16px; cursor: pointer; transition: background .25s, transform .25s, box-shadow .25s, border-color .25s; }
+        .lua-chon:hover { background: #ffeaf2; transform: translateY(-2px); box-shadow: 0 4px 12px #ff77a930; }
+        .lua-chon:has(input:checked) { background: #ffe4ef; border-color: #ff4081; box-shadow: 0 4px 14px #ff408130; }
+        .lua-chon:focus-within { outline: 2px solid #ff80ab; outline-offset: 2px; }
+        .lua-chon input { width: 21px; height: 21px; accent-color: #ff4081; cursor: pointer; flex-shrink: 0; }
+        .noi-dung { display: flex; flex-direction: column; gap: 5px; text-align: left; }
+        .noi-dung strong { color: #d63376; font-size: 17px; }
+        .noi-dung small { color: #8a6876; font-size: 13px; }
+        #thongbao { text-align: center; color: #d63376; font-size: 16px; font-weight: bold; line-height: 1.6; min-height: 1.6em; margin-top: 15px; }
+        @media (max-width: 600px) { body { padding: 10px; } .container { padding: 15px; } h1 { font-size: 25px; } .tieude { font-size: 17px; } .hoatdong { padding: 12px; } .review { font-size: 14px; } }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Dẫn Đại ka đi chơi</h1>
+        <h3>🗓️ Lịch trình đi chơi</h3>
+
+        <!-- HOẠT ĐỘNG 1: ĐI XEM PHIM -->
+        <div class="hoatdong">
+            <div class="tieude">🎬 1. Đi xem phim 😉</div>
+            <ul>
+                <li>
+                    <span class="phim">Lựa chọn 1: Trại buôn người - Bắt đầu lúc 6h10</span>
+                    <div class="review"><p>Thể loại: Phim kinh dị</p></div>
+                </li>
+                <li>
+                    <span class="phim">Lựa chọn 2: Quỷ ăn tạng - Bắt đầu lúc 6h45</span>
+                    <div class="review"><p>Thể loại: Phim kinh dị</p></div>
+                </li>
+                <li>
+                    <span class="phim">Lựa chọn 3: Chuyện công chúa - Bắt đầu lúc 5h20</span>
+                    <div class="review">
+                        <p><b>📖 Nội dung chính:</b></p>
+                        <p>• Nguồn gốc: Một ông lão đốn tre tìm thấy một bé gái tí hon tỏa sáng trong bối cảnh ống tre và đưa về nuôi cùng vợ. Bé lớn lên với tốc độ kì diệu, trở thành một thiếu nữ xinh đẹp tuyệt trần.</p>
+                        <p>• Thử thách cầu hôn: Khi tiếng tăm về sắc đẹp lan xa, 5 vị quý tộc đến cầu hôn. Kaguya đưa ra các thử thách tìm báu vật không có thực để từ chối họ.</p>
+                        <p>• Bi kịch và kết thúc: Bị ép buộc sống theo khuôn phép quý tộc phong kiến, Kaguya hướng về trăng và được cõi tiên (đoàn tùy tùng của Đức Phật) đón trở về cung trăng, để lại nỗi đau tột cùng cho cha mẹ phàm trần.</p>
+                    </div>
+                </li>
+            </ul>
+        </div>
+
+        <!-- HOẠT ĐỘNG 2: ĐI ĂN -->
+        <div class="hoatdong">
+            <div class="tieude">🍜 2. Đi ăn</div>
+            <ul>
+                <li>
+                    <span class="phim">Lựa chọn 1: Đi ăn ramen 🍜</span>
+                    <div class="review"><a href="https://www.ramenmafia.vn/" target="_blank" rel="noopener noreferrer" title="Đi tới quán ăn">👉 Cậu xem quán ăn ở đây nhe</a></div>
+                </li>
+                <li><span class="phim">Lựa chọn 2: Ăn sushi 🍣</span></li>
+                <li><span class="phim">Lựa chọn 3: Đi ăn đồ Hàn Quốc 🍱</span></li>
+            </ul>
+        </div>
+
+        <!-- HOẠT ĐỘNG 3: ĐI DẠO CÔNG VIÊN -->
+        <div class="hoatdong">
+            <div class="tieude">🌳 3. Đi dạo công viên Phùng Khoang</div>
+            <ul>
+                <li>
+                    <span class="phim">Đi lụa xe ở công viên 🚲</span>
+                    <div class="review"><p>Đi dạo quanh công viên.</p></div>
+                </li>
+            </ul>
+        </div>
+
+        <!-- ẢNH VÀ HAI Ô CHỌN Ở CUỐI TRANG -->
+        <div class="anh-cuoi">
+            <h3>Cậu nhớ duyệt đấyyyy </h3>
+            <img src="588207567_1650984836279959_1071311679181509855_n.png" alt="Ảnh kỷ niệm">
+            <div class="o-tich-duyet" role="radiogroup" aria-label="Lựa chọn duyệt">
+                <label class="lua-chon">
+                    <input type="radio" name="duyet" value="duyet" onchange="chonDuyet(this)">
+                    <span class="noi-dung"><strong> Duyệt</strong><small>Đồng ý đi chơi cùng tớ nha!</small></span>
+                </label>
+                <label class="lua-chon">
+                    <input type="radio" name="duyet" value="phai-duyet" onchange="chonDuyet(this)">
+                    <span class="noi-dung"><strong> Phải duyệt</strong><small>Không được từ chối đâu đó!</small></span>
+                </label>
+            </div>
+            <p id="thongbao" aria-live="polite"></p>
+        </div>
+    </div>
+
+    <script>
+        // URL Google Apps Script (không đặt Bot Token trong HTML)
+        const WEB_APP_URL = 'https://script.google.com/macros/s/AKfycbyMIRI00zUZ5vGY7A8a9f70eSYf2gVw-J8kuJmQcYBxdkDg0LfwBn9lRRa9XOp63ekm0A/exec';
+        let dangGui = false;
+
+        async function chonDuyet(radio) {
+            const thongbao = document.getElementById('thongbao');
+            const luaChon = radio.value === 'duyet' ? ' Duyệt' : ' Phải duyệt';
+            thongbao.textContent = ' Đang gửi ';
+            if (dangGui) return;
+            dangGui = true;
+            document.querySelectorAll('input[name="duyet"]').forEach(input => input.disabled = true);
+            try {
+                // no-cors cần thiết khi gửi từ trang HTML/GitHub Pages đến Apps Script.
+                // Phản hồi bị ẩn nên không thể xác nhận Telegram đã nhận thành công.
+                await fetch(WEB_APP_URL, {
+                    method: 'POST',
+                    mode: 'no-cors',
+                    headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
+                    body: new URLSearchParams({ luaChon })
+                });
+                thongbao.textContent = 'Được đấy chứ';
+            } catch (error) {
+                thongbao.textContent = '⚠️ Không gửi được yêu cầu. Kiểm tra mạng rồi thử lại nhé.';
+                console.error('Lỗi gửi thông báo:', error);
+            } finally {
+                dangGui = false;
+                document.querySelectorAll('input[name="duyet"]').forEach(input => input.disabled = false);
+            }
+        }
+
+        function createLeaf() {
+            const leaf = document.createElement('div');
+            const leaves = ['🍁', '🍂', '🍃'];
+            leaf.className = 'leaf';
+            leaf.textContent = leaves[Math.floor(Math.random() * leaves.length)];
+            leaf.style.left = Math.random() * 96 + 'vw';
+            leaf.style.fontSize = (15 + Math.random() * 20) + 'px';
+            const duration = 5 + Math.random() * 5;
+            leaf.style.animationDuration = duration + 's';
+            document.body.appendChild(leaf);
+            setTimeout(() => leaf.remove(), duration * 1000);
+        }
+        // Bắt đầu tạo lá ngay khi mở trang và tiếp tục liên tục
+        for (let i = 0; i < 12; i++) {
+            setTimeout(createLeaf, i * 110);
+        }
+        setInterval(createLeaf, 350);
+    </script>
+</body>
+</html>
